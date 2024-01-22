@@ -1,1 +1,2 @@
-echo "use my_db" | mongo
+//use my database specific
+use my_db
