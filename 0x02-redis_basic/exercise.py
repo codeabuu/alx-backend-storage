@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 ''' store an instance of the Redis client as a private variable named _redis'''
 
-import uuid
+from uuid import uuid4
 import redis
 from typing import Union, Callable, Optional
 from functools import wraps
