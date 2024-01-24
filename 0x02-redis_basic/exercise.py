@@ -3,7 +3,9 @@
 
 import uuid
 import redis
-from typing import Union
+from typing import Union, Callable, Optional
+from functools import wraps
+
 
 
 class Cache:
